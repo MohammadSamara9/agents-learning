@@ -16,3 +16,6 @@
 - JOIN two tables, COUNT, GROUP BY
 - .db files go in .gitignore; commit the .sql instead
 
+## 2026-10-18 — Claude 101
+- Completed the Claude 101 course on Claude Academy
+- Badge saved in [certificates/](certificates/claude-101-badge.pdf)
