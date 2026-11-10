@@ -25,9 +25,10 @@
 - Practiced rewriting vague prompts into clear ones
 - Decided to keep improving prompts inside real projects, not only exercises
 
-## 2026-11-10 — Python (university lab + HackerRank)
-- Finished the basics: variables, conditions, loops, files
-- Functions, modules, `pip`, data structures, recursion, regex
-- Solved my first HackerRank problems (Hello World, If-Else, Arithmetic, Loops) and earned the first star
-- Next: classes (OOP) and `try/except`, then JSON and HTTP requests
-- Then: first small project with the Claude API
+## 2026-11-10 — Python lab course finished (chapters 7 to 10)
+- Chapter 7: variables, types, strings, lists, tuples, dicts, conditions, loops, files
+- Chapter 8: functions, modules, `pip`, data structures, recursion, regex
+- Chapter 9: classes, inheritance, polymorphism, abstract classes, data hiding, exceptions with `raise`
+- Chapter 10: NumPy arrays and a simple Matplotlib plot (SciPy skipped, not needed for agents)
+- HackerRank: first problems solved without AI, first star earned
+- Next: JSON, HTTP requests and `.env` with `os`, then my first small project with the Claude API
