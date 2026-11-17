@@ -32,3 +32,17 @@
 - Chapter 10: NumPy arrays and a simple Matplotlib plot (SciPy skipped, not needed for agents)
 - HackerRank: first problems solved without AI, first star earned
 - Next: JSON, HTTP requests and `.env` with `os`, then my first small project with the Claude API
+
+## 2026-11-17 — Python gaps for agents
+- `venv`: create, activate, `pip install`, `requirements.txt`, and why `.venv` is never committed
+- `.env` with `python-dotenv` and `os.getenv`; a missing key returns `None`, so I check it
+- JSON: `dumps` / `loads` for strings, `dump` / `load` for files
+- `requests`: `get`, `status_code`, `.json()`
+- What an API is: the road between two programs, and JSON is what travels on it
+- Mistakes I learned from: running in `System32`, `cmd` vs PowerShell activation, typos in file names, and never naming a file `requests.py`
+- Exercises saved in [python/](python)
+
+## 2026-11-17 — Claude API: first look
+- Opened my Claude Console account (credits, keys, models)
+- Shape of a request: `model`, `max_tokens`, `messages`
+- Next: add a small amount of credit, create a key, and send my first request

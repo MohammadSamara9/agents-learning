@@ -13,8 +13,8 @@ I learn by doing: every step has small practical exercises, and I write what I l
 | Stage | Topics | Status |
 |---|---|---|
 | 1. Foundations | Git & GitHub, SQL basics, protecting API keys, Claude 101, prompt engineering basics | ✅ Done |
-| 2. Python | Basics, functions, modules, data structures, recursion, regex, OOP, exceptions, NumPy & Matplotlib basics ✅ · JSON & HTTP requests, `.env` with `os` ⏳ | ✅ Course done |
-| 3. Claude API | Messages API, structured outputs, cost | 🔄 Next up |
+| 2. Python | Basics, functions, modules, data structures, recursion, regex, OOP, exceptions, NumPy & Matplotlib basics, `venv`, `.env` with `os`, JSON, HTTP requests | ✅ Done |
+| 3. Claude API | Messages API, structured outputs, cost | 🔄 In progress |
 | 4. AI Agents | Agent loop, tool use, error handling, memory, RAG | ⏳ Planned |
 | 5. Multi-Agent Systems | Manager + workers, passing tasks between agents | ⏳ Planned |
 | 6. Testing & Safety | Evaluating agents, human approval, prompt injection | ⏳ Planned |
@@ -24,9 +24,9 @@ I learn by doing: every step has small practical exercises, and I write what I l
 
 ## 🎯 Where I am now
 
-I finished the foundations and the whole Python lab course (chapters 7 to 10): basics, functions, data structures, regex, OOP, exceptions, and an intro to NumPy and Matplotlib.
+I finished the foundations, the whole Python lab course (chapters 7 to 10), and the Python gaps I needed for agents: virtual environments, reading keys from `.env`, JSON, and HTTP requests. The exercises are in [`python/`](python).
 
-Next up is the small Python gaps for agents (JSON, HTTP requests, reading keys from `.env`), then my first small project with the Claude API.
+Now I am on the Claude API: I opened my Console account and learned the shape of a request (`model`, `max_tokens`, `messages`). Next is my first real request, then structured outputs and cost, then a small project.
 
 The big course project with my instructor will be my main Python practice, so I do not repeat it as a separate project.
 
@@ -52,6 +52,7 @@ The big course project with my instructor will be my main Python practice, so I 
 | Path | What's inside |
 |---|---|
 | [`LEARNING_LOG.md`](LEARNING_LOG.md) | What I learned each day |
+| [`python/`](python) | Python exercises: `.env`, JSON, HTTP requests |
 | [`sql/learning.sql`](sql/learning.sql) | A small SQLite database that tracks my learning tasks |
 | [`certificates/`](certificates) | Course certificates and badges |
 
